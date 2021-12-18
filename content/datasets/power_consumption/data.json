@@ -1,0 +1,398 @@
+[
+    {
+        "type": "Workstation",
+        "hardware": "SuperMicro H12SSL-i/EPYC 7232P/64G memory/2*GTX1070/2* M.2 PCIe SSD/2*HDD",
+        "software": "Windows 10",
+        "_children": [
+            {
+                "state": "booted, idle",
+                "power": 120,
+                "source": "AC"
+            },
+            {
+                "state": "stress CPU only",
+                "power": 150,
+                "source": "AC"
+            },
+            {
+                "state": "Chrome with 1080p video decoding",
+                "power": 180,
+                "source": "AC"
+            },
+            {
+                "state": "stress CPU, FPU, Cache and both GPU",
+                "power": 410,
+                "source": "AC"
+            }
+        ]
+    },
+    {
+        "type": "Workstation",
+        "hardware": "Dell T7610/E5-2680v2*2/Quadro 2000/1* SATA SSD",
+        "_children": [
+            {
+                "state": "powered off",
+                "power": 1.6,
+                "source": "AC"
+            },
+            {
+                "state": "BIOS setup screen, idle",
+                "power": 276,
+                "source": "AC"
+            },
+            {
+                "state": "booted, idle",
+                "software": "Windows 10 LTSC 2019",
+                "power": 115,
+                "source": "AC"
+            }
+        ]
+    },
+    {
+        "type": "PC",
+        "hardware": "i5-9600K",
+        "software": "Windows 10",
+        "_children": [
+            {
+                "state": "powered off",
+                "power": 0.6,
+                "source": "AC"
+            },
+            {
+                "state": "standby",
+                "power": 1.6,
+                "source": "AC"
+            }
+        ]
+    },
+    {
+        "type": "PC",
+        "hardware": "JHS359 (B85)/i3-4160T/8G*2 DDR3 ECC 1600MHz/32G SATA SSD/16G Optane",
+        "software": "Debian 11",
+        "_children": [
+            {
+                "state": "PSU only",
+                "power": 0.45,
+                "source": "AC"
+            },
+            {
+                "state": "BIOS setup screen, idle",
+                "power": 31,
+                "source": "AC"
+            },
+            {
+                "state": "booted, idle",
+                "power": 19,
+                "source": "AC"
+            },
+            {
+                "state": "stress CPU (3.1G all cores)",
+                "power": 40,
+                "source": "AC"
+            }
+        ]
+    },
+    {
+        "type": "Server",
+        "hardware": "Dell R320/E5-2430v2/6* 8G memory",
+        "software": "",
+        "_children": [
+            {
+                "state": "powered off",
+                "power": 8,
+                "source": "AC"
+            },
+            {
+                "state": "memtest86 with 6 cores",
+                "power": 100,
+                "source": "AC"
+            }
+        ]
+    },
+    {
+        "type": "Monitor",
+        "hardware": "Dell P2417H",
+        "_children": [
+            {
+                "state": "standby",
+                "power": 0.1,
+                "source": "AC"
+            },
+            {
+                "state": "screen on (min)",
+                "power": 8,
+                "source": "AC"
+            },
+            {
+                "state": "screen on (max)",
+                "power": 15,
+                "source": "AC"
+            }
+        ]
+    },
+    {
+        "type": "Tape Drive",
+        "hardware": "IBM 8767-HNX LTO4",
+        "_children": [
+            {
+                "state": "standby",
+                "power": 15,
+                "source": "AC"
+            }
+        ]
+    },
+    {
+        "type": "Switch",
+        "hardware": "Cisco Catalyst 2960L-8TC",
+        "_children": [
+            {
+                "state": "all ports disconnected, no traffic",
+                "power": 7,
+                "source": "AC"
+            }
+        ]
+    },
+    {
+        "type": "Switch",
+        "hardware": "Cisco Catalyst 3560CG-8TC-S",
+        "_children": [
+            {
+                "state": "all ports disconnected, no traffic",
+                "power": 8.5,
+                "source": "AC"
+            },
+            {
+                "state": "all RJ45 ports up, no traffic",
+                "power": 16,
+                "source": "AC"
+            }
+        ]
+    },
+    {
+        "type": "Switch",
+        "hardware": "Cisco Catalyst 3560G-48TC-S",
+        "_children": [
+            {
+                "state": "all ports disconnected, no traffic",
+                "power": 80,
+                "source": "AC"
+            }
+        ]
+    },
+    {
+        "type": "Switch",
+        "hardware": "Juniper EX2200-C-12P-2G",
+        "_children": [
+            {
+                "state": "all ports disconnected, no traffic",
+                "power": 16,
+                "source": "AC"
+            },
+            {
+                "state": "all RJ45 ports up except management port, no traffic",
+                "power": 21.6,
+                "source": "AC"
+            }
+        ]
+    },
+    {
+        "type": "PSU",
+        "hardware": "TP-Link TL-POE150S",
+        "_children": [
+            {
+                "state": "no device connected",
+                "power": 1,
+                "equipment": "TECMAN TM9C",
+                "source": "AC"
+            }
+        ]
+    },
+    {
+        "type": "Router",
+        "hardware": "Cisco C1101-4P",
+        "_children": [
+            {
+                "state": "booting",
+                "power": 6.4,
+                "source": "AC"
+            },
+            {
+                "state": "4 RJ45 ports up, no configuration, no traffic",
+                "power": 8,
+                "source": "AC"
+            }
+        ]
+    },
+    {
+        "type": "Router",
+        "hardware": "Juniper SRX550",
+        "_children": [
+            {
+                "software": "Junos OS 12.1X47-D20.7",
+                "state": "booting",
+                "power": 83,
+                "source": "AC"
+            },
+            {
+                "software": "Junos OS 12.1X47-D20.7",
+                "state": "boot finished, no configuration, no traffic",
+                "power": 70,
+                "source": "AC"
+            }
+        ]
+    },
+    {
+        "type": "Router",
+        "hardware": "MikroTik hAP ac^3",
+        "_children": [
+            {
+                "software": "RouterOS 7.1rc7",
+                "state": "3 ethernet ports up, no traffic",
+                "power": 3.5,
+                "source": "AC"
+            }
+        ]
+    },
+    {
+        "type": "Router",
+        "hardware": "Juniper SRX300",
+        "_children": [
+            {
+                "state": "booting",
+                "power": 15,
+                "source": "AC"
+            },
+            {
+                "state": "boot finished, no configuration, no traffic",
+                "power": 16,
+                "source": "AC"
+            }
+        ]
+    },
+    {
+        "type": "Router",
+        "hardware": "Huawei MA5612/H848ASNB",
+        "_children": [
+            {
+                "state": "booting",
+                "power": 21,
+                "source": "AC"
+            },
+            {
+                "state": "boot finished, idle",
+                "power": 22.74,
+                "source": "AC"
+            }
+        ]
+    },
+    {
+        "type": "Wireless Controller",
+        "hardware": "Aruba 7005-AC",
+        "software": "8.9.0.0",
+        "notes": "auto switches between PoE and 12V DC; PoE takes precedence",
+        "_children": [
+            {
+                "state": "idle",
+                "power": 7,
+                "adapter": "YZXStudio Terminator 11",
+                "equipment": "YZXStudio Terminator 11",
+                "source": "DC Jack"
+            },
+            {
+                "state": "idle",
+                "power": 9.4,
+                "adapter": "Juniper EX2200-C-12P-2G",
+                "equipment": "Juniper EX2200-C-12P-2G",
+                "source": "PoE",
+                "notes": "0.75w load on the 12V DC input"
+            }
+        ]
+    },
+    {
+        "type": "AP",
+        "hardware": "Aruba 303H",
+        "software": "8.9.0.0",
+        "notes": "auto switches between PoE and 48V DC; PoE takes precedence",
+        "_children": [
+            {
+                "state": "idle, wireless off",
+                "power": 5.4,
+                "adapter": "TP-Link TL-POE150S",
+                "equipment": "TECMAN TM9C",
+                "source": "AC"
+            },
+            {
+                "state": "idle, wireless on",
+                "power": 5.4,
+                "adapter": "TP-Link TL-POE150S",
+                "equipment": "TECMAN TM9C",
+                "source": "AC"
+            },
+            {
+                "state": "one wireless client with 600Mbps download",
+                "power": 7,
+                "adapter": "TP-Link TL-POE150S",
+                "equipment": "TECMAN TM9C",
+                "source": "AC"
+            },
+            {
+                "state": "one wireless client with 600Mbps download, 2 idle wired clients",
+                "power": 8,
+                "adapter": "TP-Link TL-POE150S",
+                "equipment": "TECMAN TM9C",
+                "source": "AC"
+            },
+            {
+                "state": "idle, wireless on",
+                "power": 4.7,
+                "adapter": "MeanWell GST36B48-P1J",
+                "equipment": "TECMAN TM9C",
+                "source": "AC"
+            }
+            ,
+            {
+                "state": "one wireless client with 600Mbps download",
+                "power": 6.4,
+                "adapter": "MeanWell GST36B48-P1J",
+                "equipment": "TECMAN TM9C",
+                "source": "AC"
+            }
+        ]
+    },
+    {
+        "type": "IoT",
+        "hardware": "Apple HomePod Mini",
+        "software": "15.2",
+        "notes": "USB-C input, rated 9V 2A",
+        "_children": [
+            {
+                "state": "idle",
+                "power": 1.2,
+                "adapter": "Apple 20W USB-C adapter",
+                "equipment": "TECMAN TM9C",
+                "source": "AC"
+            },
+            {
+                "state": "booting",
+                "power": 1.7,
+                "adapter": "Apple 20W USB-C adapter",
+                "equipment": "TECMAN TM9C",
+                "source": "AC"
+            },
+            {
+                "state": "Siri triggered and actively listening",
+                "power": 1.7,
+                "adapter": "Apple 20W USB-C adapter",
+                "equipment": "TECMAN TM9C",
+                "source": "AC"
+            },
+            {
+                "state": "Steaming music from Apple Music, max volume",
+                "power": 3.5,
+                "adapter": "Apple 20W USB-C adapter",
+                "equipment": "TECMAN TM9C",
+                "source": "AC"
+            }
+        ]
+    }
+]

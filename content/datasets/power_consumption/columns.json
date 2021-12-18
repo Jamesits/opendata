@@ -1,0 +1,11 @@
+[
+    { "title": "Type", "field": "type" },
+    { "title": "Hardware", "field": "hardware", "width": 160 },
+    { "title": "Software", "field": "software" },
+    { "title": "State", "field": "state" },
+    { "title": "Power (W)", "field": "power" },
+    { "title": "Powered By", "field": "adapter" },
+    { "title": "Measured From", "field": "source" },
+    { "title": "Measured By", "field": "equipment" },
+    { "title": "Notes", "field": "notes", "width": 160 }
+]
