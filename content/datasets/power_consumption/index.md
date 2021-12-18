@@ -10,4 +10,4 @@ Here is a collection of real-world power consumptions of different appliances. U
 The data is not very accurate, because:
 - The test equipments are not accurate enough
 - The test cases are not standardized
-- Most of the readings are from short-term averages
+- Most of the readings are from short-term averages, because none of my test equipments can record data
