@@ -1,0 +1,6 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'James Open Data Project'
+enableGitInfo = true
+enableRobotsTXT = true
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
