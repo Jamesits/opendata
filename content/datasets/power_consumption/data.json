@@ -29,6 +29,7 @@
     {
         "type": "Workstation",
         "hardware": "Dell T7610/E5-2680v2*2/Quadro 2000/1* SATA SSD",
+        "adapter": "Dell H1300EF-01",
         "_children": [
             {
                 "state": "powered off",
@@ -69,6 +70,7 @@
         "type": "PC",
         "hardware": "JHS359 (B85)/i3-4160T/8G*2 DDR3 ECC 1600MHz/32G SATA SSD/16G Optane",
         "software": "Debian 11",
+        "adapter": "MetalFish ZH150-02 12V 12.5A",
         "_children": [
             {
                 "state": "PSU only",
