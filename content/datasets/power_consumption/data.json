@@ -2,6 +2,7 @@
     {
         "type": "Workstation",
         "hardware": "SuperMicro H12SSL-i/EPYC 7232P/64G memory/2*GTX1070/2* M.2 PCIe SSD/2*HDD",
+        "adapter": "Antec HCG850",
         "software": "Windows 10",
         "_children": [
             {
