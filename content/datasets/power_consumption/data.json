@@ -363,33 +363,30 @@
         "type": "IoT",
         "hardware": "Apple HomePod Mini",
         "software": "15.2",
+        "adapter": "Apple 20W USB-C adapter",
         "notes": "USB-C input, rated 9V 2A",
         "_children": [
             {
                 "state": "idle",
                 "power": 1.2,
-                "adapter": "Apple 20W USB-C adapter",
                 "equipment": "TECMAN TM9C",
                 "source": "AC"
             },
             {
                 "state": "booting",
                 "power": 1.7,
-                "adapter": "Apple 20W USB-C adapter",
                 "equipment": "TECMAN TM9C",
                 "source": "AC"
             },
             {
                 "state": "Siri triggered and actively listening",
                 "power": 1.7,
-                "adapter": "Apple 20W USB-C adapter",
                 "equipment": "TECMAN TM9C",
                 "source": "AC"
             },
             {
                 "state": "Steaming music from Apple Music, max volume",
                 "power": 3.5,
-                "adapter": "Apple 20W USB-C adapter",
                 "equipment": "TECMAN TM9C",
                 "source": "AC"
             }
