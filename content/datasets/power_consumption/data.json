@@ -388,6 +388,11 @@
                 "state": "idle, 1 PSU connected",
                 "power": 9.3,
                 "source": "AC"
+            },
+            {
+                "state": "idle, 1 PSU connected, GPS running",
+                "power": 10.42,
+                "source": "AC"
             }
         ]
     },
