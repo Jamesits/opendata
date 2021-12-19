@@ -363,6 +363,35 @@
         ]
     },
     {
+        "type": "Console Server",
+        "hardware": "Opengear IM4248",
+        "notes": "Two PSUs in active/backup configuration",
+        "_children": [
+            {
+                "state": "idle, 1 PSU connected",
+                "power": 5.0,
+                "source": "AC"
+            },
+            {
+                "state": "idle, 2 PSUs connected",
+                "power": 8.2,
+                "source": "AC"
+            }
+        ]
+    },
+    {
+        "type": "Console Server",
+        "hardware": "Opengear IM7208-2-DAC-LR",
+        "notes": "Wi-Fi: WPEA-121N/W, 4G: Sierra Wireless MC7304, Two PSUs in active/backup configuration",
+        "_children": [
+            {
+                "state": "idle, 1 PSU connected",
+                "power": 9.3,
+                "source": "AC"
+            }
+        ]
+    },
+    {
         "type": "IoT",
         "hardware": "Apple HomePod Mini",
         "software": "15.2",
